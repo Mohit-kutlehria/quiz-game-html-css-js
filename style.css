@@ -273,17 +273,17 @@ body {
 				background: #ff8c00;
 				border: 1px solid #ff8c00;
 				line-height: 10px;
-				/* opacity: 0;
-				pointer-events: none; */
+				opacity: 0;
+				pointer-events: none;
 				transform: scale(0.95);
 				transition: all 0.3sease;
 			}
-			/* .nextBtn.active {
+			.nextBtn.active {
 				opacity: 1;
 				pointer-events: auto;
 				transform: scale(1);
 				background: #ff7f50;
-			} */
+			}
 		}
 	}
 	.quiz-box.activeQuizBox {
@@ -312,11 +312,6 @@ body {
 		opacity: 0;
 		pointer-events: none;
 		transition: all 0.3s ease;
-
-		/* opacity: 1;
-		z-index: 5;
-		pointer-events: auto;
-		transform: translate(-50%, -50%) scale(1); */
 
 		.crownIcon {
 			font-weight: 900;
